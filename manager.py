@@ -194,7 +194,7 @@ if __name__ == '__main__':
             show_help()
         elif action == 6:
             os.system(clear)
-            exit(0)
+            exit()
         else:
             print("Please select between 1-5")
             show_help()
