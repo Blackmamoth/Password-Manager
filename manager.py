@@ -152,8 +152,8 @@ class PasswordManager:
             print("Wrong root password")
 
 if __name__ == '__main__':
-    show_help()
     while True:
+        show_help()
         action = int(input("\nSelect between (1-6) to perform an action: "))
         if action == 1:
             os.system(clear)
